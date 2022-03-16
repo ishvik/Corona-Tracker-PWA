@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-state {
+  width: 100%;
+  height: 50%;
+}
+
+.state-nav {
+  width: 100%;
+  height: 10%;
+  display: flex;
+}
+
+.state-nav-head {
+  height: 100%;
+  width: 50%;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-left: 2%;
+  color: white;
+  display: flex;
+}
+
+.state-sort-filter {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2%;
+}
+
+.states {
+  height: 70%;
+  width: 100%;
+  padding-top: 3%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pagination-section {
+  width: 100%;
+  height: 20%;
+  padding-top: 2%;
+}
+
+.paginationBttns {
+  width: 100%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: #1e1e24;
+  background-color: #d8fa33;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: black;
+}
+
+.paginationDisabled a {
+  color: white;
+  background-color: black;
+}
+
+.card:hover .card-content {
+  transform: rotateY(180deg);
+}
+
+.swipe {
+  color: #0062ff;
+  text-align: right;
+  margin-top: auto;
+}
+
+@media screen and (max-width: 1440px) {
+  .state-nav-head {
+    height: 100%;
+    width: 40%;
+  }
+
+  .state-sort-filter {
+    height: 100%;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1516px) {
+  .state-nav-head {
+    height: 100%;
+    width: 40%;
+  }
+
+  .state-sort-filter {
+    height: 100%;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1546px) {
+  .state-nav-head {
+    height: 100%;
+    width: 40%;
+  }
+
+  .state-sort-filter {
+    height: 100%;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .state-nav-head {
+    height: 100%;
+    width: 35%;
+  }
+
+  .state-sort-filter {
+    height: 100%;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 581px) {
+  .state-nav {
+    display: block;
+    height: 15vh;
+  }
+
+  .state-nav-head {
+    height: 50%;
+    width: 90%;
+  }
+
+  .state-sort-filter {
+    height: 50%;
+    width: 100%;
+  }
+
+  .states {
+    height: 95vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 720px) {
+  .state-nav-head {
+    font-size: 25px;
+  }
+}
+/* // */
