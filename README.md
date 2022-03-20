@@ -7,6 +7,6 @@
 1.) Go to server dir ---> run "node App.js"    
 2.) Then go to client dir ---> run "npx serve -s build" 
 
-
+![example](https://github.com/ishvik/Corona-Tracker-PWA/blob/main/client/src/example.png)
 
 want to see a live demo -- visit https://corona-tracker-pwa.herokuapp.com
